@@ -48,7 +48,7 @@ def _all_():
                 print("")
                 break
         new_mac =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Network-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
-      └──╼ """+Fore.WHITE+"卐 ")
+  └──╼ """+Fore.WHITE+"卐 ")
         
         if new_mac == "" or None :
             time.sleep(1)
