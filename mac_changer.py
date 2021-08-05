@@ -68,7 +68,7 @@ def _all_():
                 print(Fore.RED + "[-] Yout Nwe Mac Is Not Found !!!")
                 sys.exit()
 
-                
+        print("\n")
         time.sleep(0.3)
         text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your Name Network !\n"
         count = 0
@@ -82,7 +82,7 @@ def _all_():
                 print("")
                 break
         name_network =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Network-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
-      └──╼ """+Fore.WHITE+"卐 ")
+  └──╼ """+Fore.WHITE+"卐 ")
                 
                 
         if name_network == "" or None:
