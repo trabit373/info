@@ -29,7 +29,7 @@ def _all_():
             sys.exit()
         baner()
         time.sleep(0.3)
-        text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your Domain Target !\n"
+        text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your IP Target !\n"
         count = 0
         while True:
           try:
