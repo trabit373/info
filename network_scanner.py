@@ -40,7 +40,7 @@ def _all_():
           except:
               print("")
               break
-        ip_target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Information-Data-For-IP"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"bay-pass-cloud-flare"+Fore.RED+"""]
+        ip_target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Network-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"Network-Scanner"+Fore.RED+"""]
       └──╼ """+Fore.WHITE+"卐 ")
         if ip_target == "" or None:
             time.sleep(1)
