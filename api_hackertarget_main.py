@@ -138,4 +138,8 @@ def _all_():
         import analyticslookup
         analyticslookup._all_()
         # _Test_Fore_Back_The_Meno
+    else:
+        time.sleep(1)
+        print(Fore.RED + "[-] Your Number Is Not Found !!!")
+        sys.exit()
 _all_()
