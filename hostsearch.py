@@ -8,7 +8,7 @@ def _all_():
     os.system("clear")
     baner()
     time.sleep(1)
-    text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your target\n"
+    text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your Ip Or Domain Target !\n"
     count = 0
     while True:
         try:
@@ -20,7 +20,7 @@ def _all_():
             print("")
             break
     target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@API-hackertarget"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"hostsearch"+Fore.RED+"""]
-    └──╼ """+Fore.WHITE+"卐 ")
+  └──╼ """+Fore.WHITE+"卐 ")
     if target == "" or None:
         time.sleep(1)
         print(Fore.YELLOW + "["+ Fore.RED + "!" + Fore.YELLOW + "]"+ Fore.RED + " Error" + Fore.YELLOW + " >>> " + Fore.RED + "Your Target Ip None !!!")
