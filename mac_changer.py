@@ -47,7 +47,7 @@ def _all_():
             except:
                 print("")
                 break
-        new_mac =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Information-Data-For-IP"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
+        new_mac =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Network-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
       └──╼ """+Fore.WHITE+"卐 ")
         
         if new_mac == "" or None :
@@ -81,7 +81,7 @@ def _all_():
             except:
                 print("")
                 break
-        name_network =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Information-Data-For-IP"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
+        name_network =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Network-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
       └──╼ """+Fore.WHITE+"卐 ")
                 
                 
