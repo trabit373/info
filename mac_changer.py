@@ -32,11 +32,24 @@ def _all_():
             print(Fore.RED + "[-] Your OS System Not The Linux !!!")
             sys.exit()
 
-        baner()
-        time.sleep(1)
         check_mac1 = subprocess.getoutput("ifconfig")
         my_mac1 = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w:" , check_mac1)
-        new_mac = input(Fore.BLUE + "\n[!]" + Fore.YELLOW + " ~ " + Fore.BLUE + "Enter Your New Mac Address :" + Fore.YELLOW + " ")
+        baner()
+        time.sleep(0.3)
+        text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your New MAC Address !\n"
+        count = 0
+        while True:
+            try:
+                text_me = text[int(count)]
+                sys.stdout.write(f"{str(text_me)}"),sys.stdout.flush()
+                count += 1
+                time.sleep(0.08)
+            except:
+                print("")
+                break
+        new_mac =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Information-Data-For-IP"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
+      └──╼ """+Fore.WHITE+"卐 ")
+        
         if new_mac == "" or None :
             time.sleep(1)
             print(Fore.RED + "[-] Your Input Is Not Found !!!")
@@ -54,7 +67,24 @@ def _all_():
                 time.sleep(1)
                 print(Fore.RED + "[-] Yout Nwe Mac Is Not Found !!!")
                 sys.exit()
-        name_network = input(Fore.BLUE + "\n[!]" + Fore.YELLOW + " ~ " + Fore.BLUE + "Enter Your Name Network :" + Fore.YELLOW + " ")
+
+                
+        time.sleep(0.3)
+        text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your Name Network !\n"
+        count = 0
+        while True:
+            try:
+                text_me = text[int(count)]
+                sys.stdout.write(f"{str(text_me)}"),sys.stdout.flush()
+                count += 1
+                time.sleep(0.08)
+            except:
+                print("")
+                break
+        name_network =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Information-Data-For-IP"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"MAC-Changer"+Fore.RED+"""]
+      └──╼ """+Fore.WHITE+"卐 ")
+                
+                
         if name_network == "" or None:
             time.sleep(1)
             print(Fore.RED + "[-] Your Input Is Not Found !!!")
