@@ -53,7 +53,7 @@ def _all_():
                 time.sleep(1)
                 print(Fore.RED + "[-] Your Input Is Not Found !!!")
                 sys.exit()
-           
+        print("\n")   
         time.sleep(0.3)
         text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your IP ROUTER !\n"
         count = 0
@@ -67,7 +67,7 @@ def _all_():
                 print("")
                 break
         ip_router =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Network-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"ARP-Spoofer"+Fore.RED+"""]
-      └──╼ """+Fore.WHITE+"卐 ")
+  └──╼ """+Fore.WHITE+"卐 ")
           
         if ip_router == "" or None:
             time.sleep(1)
