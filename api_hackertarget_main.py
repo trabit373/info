@@ -48,11 +48,11 @@ def _all_():
     time.sleep(0.3)
     ####################   GET NUMBER   ####################
     try:
-    number = int(input(Fore.LIGHTWHITE_EX + "\n[!] ~ Enter Your Number" + Fore.RED + " >>>" + Fore.GREEN + " "))
+        number = int(input(Fore.LIGHTWHITE_EX + "\n[!] ~ Enter Your Number" + Fore.RED + " >>>" + Fore.GREEN + " "))
     except:
-    time.sleep(1)
-    print(Fore.RED + "[-] Your Input Is Not Number !!!")
-    sys.exit()
+        time.sleep(1)
+        print(Fore.RED + "[-] Your Input Is Not Number !!!")
+        sys.exit()
     if number == 1:
         import mtr
         mtr._all_()
