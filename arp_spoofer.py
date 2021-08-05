@@ -34,8 +34,7 @@ def _all_():
                 break
         ip_target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Network-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"ARP-Spoofer"+Fore.RED+"""]
   └──╼ """+Fore.WHITE+"卐 ")
-        time.sleep(1)
-        ip_target = input(Fore.BLUE + "\n[!]" + Fore.YELLOW + " ~ " + Fore.BLUE + "Enter The Ip Target :" + Fore.YELLOW + " ")
+        
         if ip_target == "" or None:
             time.sleep(1)
             print(Fore.RED + "[-] Your Input Is None !!!")
