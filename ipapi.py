@@ -25,7 +25,7 @@ def _all_():
             print("")
             break
     ip_target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Information-Data-For-IP"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"ipapi"+Fore.RED+"""]
-    └──╼ """+Fore.WHITE+"卐 ")
+  └──╼ """+Fore.WHITE+"卐 ")
     if ip_target == "" or None:
         time.sleep(1)
         print(Fore.YELLOW + "["+ Fore.RED + "!" + Fore.YELLOW + "]"+ Fore.RED + " Error" + Fore.YELLOW + " >>> " + Fore.RED + "Your Target Ip None !!!")
