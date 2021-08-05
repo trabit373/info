@@ -19,7 +19,7 @@ def _all_():
     except:
         print("")
         break
-    target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@API-hackertarget"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"__name__"+Fore.RED+"""]
+    target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@API-hackertarget"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"mtr"+Fore.RED+"""]
     └──╼ """+Fore.WHITE+"卐 ")
     if target == "" or None:
         time.sleep(1)
