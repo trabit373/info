@@ -16,14 +16,14 @@ def _all_():
     text = Fore.LIGHTWHITE_EX + "  [!] " +  Fore.CYAN + "Enter Your IP Target !\n"
     count = 0
     while True:
-    try:
-        text_me = text[int(count)]
-        sys.stdout.write(f"{str(text_me)}"),sys.stdout.flush()
-        count += 1
-        time.sleep(0.08)
-    except:
-        print("")
-        break
+        try:
+            text_me = text[int(count)]
+            sys.stdout.write(f"{str(text_me)}"),sys.stdout.flush()
+            count += 1
+            time.sleep(0.08)
+        except:
+            print("")
+            break
     ip_target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@Information-Data-For-IP"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"ipapi"+Fore.RED+"""]
     └──╼ """+Fore.WHITE+"卐 ")
     if ip_target == "" or None:
