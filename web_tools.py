@@ -8,9 +8,9 @@ def _all_():
     os.system("clear")
     baner()
     time.sleep(0.3)
-    print(Fore.YELLOW + "\t\t\t     ["  + Fore.GREEN + "1" + Fore.YELLOW + "]" + Fore.BLACK + "  ~ "+Fore.CYAN + "Obtain Target Programming Plugins And Information")
+    print(Fore.YELLOW + "\t\t\t ["  + Fore.GREEN + "1" + Fore.YELLOW + "]" + Fore.BLACK + "  ~ "+Fore.CYAN + "Obtain Target Programming Plugins And Information")
     time.sleep(0.3)
-    print(Fore.YELLOW + "\t\t\t     ["  + Fore.GREEN + "2" + Fore.YELLOW + "]" + Fore.BLACK + "  ~ "+Fore.CYAN + "Obtain Sites On The Server")
+    print(Fore.YELLOW + "\t\t\t ["  + Fore.GREEN + "2" + Fore.YELLOW + "]" + Fore.BLACK + "  ~ "+Fore.CYAN + "Obtain Sites On The Server")
     time.sleep(0.5)
 
 
