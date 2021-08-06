@@ -20,7 +20,7 @@ def _all_():
         except:
             print("")
             break
-    target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@WP-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"xmlrpc"+Fore.RED+"""]
+    target =  input(Fore.RED+"  ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@WP-Hacking"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"wp-json"+Fore.RED+"""]
   └──╼ """+Fore.WHITE+"卐 ")
     if target == "" or None:
         time.sleep(1)
