@@ -32,7 +32,6 @@ def _all_():
         sys.exit()
     if "http://" or "https://" not in target:
       target = "https://" + target
-    target_new = str(target)
-    info = builtwith.parse(target_new)
+    info = builtwith.parse(target)
     for keys,values in info.items():
       print(Fore.GREEN + " [+] " + Fore.YELLOW + keys + "   :   " +Fore.CYAN + str(values))
