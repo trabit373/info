@@ -2381,7 +2381,7 @@ xmlrpc.php
 /wp-content/plugins/profile-builder/assets/images/sorting-descending.png
 /wp-content/plugins/profiles/library/bio-img.php
 """.split()
-        for i in my_list:
+   for i in my_list:
           new_target =   str(target) + "/" + str(i)
           try:
               req = requests.get(new_target).status_code
