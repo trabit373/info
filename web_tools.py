@@ -35,3 +35,4 @@ def _all_():
         time.sleep(1)
         print(Fore.RED + "[-] Your Number Is Not Found !!!")
         sys.exit()
+_all_()
